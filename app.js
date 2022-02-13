@@ -51,3 +51,12 @@ document.getElementById('case-plus').addEventListener('click', function () {
 document.getElementById('case-minus').addEventListener('click', function () {
     updateProductNumber('case', 59, false);
 })
+
+document.getElementById('phone-remove').addEventListener('click', function () {
+    const phoneItem = document.getElementById('phone-item-remove');
+    const removePhone = phoneItem.removeChild();
+});
+
+document.getElementById('case-remove').addEventListener('click', function () {
+    console.log('case removed');
+})
